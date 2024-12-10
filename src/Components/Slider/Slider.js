@@ -4,9 +4,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // Corrected image paths
-import Acc1 from "../Assets/Acc1.jpg";
-import Acc2 from "../Assets/acc2.jpg";
-import Acc3 from "../Assets/acc3.jpg";
+import Acc1 from "../Assets/a1.jpg";
+import Acc2 from "../Assets/a2.jpg";
+import Acc3 from "../Assets/a3.jpg";
 
 const ImageSlider = () => {
   const settings = {

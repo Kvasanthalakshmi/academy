@@ -22,17 +22,20 @@ const Footer = () => {
                         <Link to="/contactus"><p>Contact Us</p></Link>
                     </div>
                     <div className="sb__footer-links_div">
-                        <h4>SHOP</h4>
+                        {/* <h4>SHOP</h4>
                         <a href="/laptop"><p>Laptop</p></a>
                         <a href="/cctv"><p>CCTV Camera</p></a>
-                        <a href="/printer"><p>Printer</p></a>
+                        <a href="/printer"><p>Printer</p></a> */}
                     </div>
                     <div className="sb__footer-links_div">
                         <h4>QUICK LINKS</h4>
-                        <Link to="/shippingpolicy"><p>Shipping Policy</p></Link>
+                        {/* <Link to="/home"><p>Home</p></Link> */}
+                        <Link to="/service"><p>Service</p></Link>
+
+                        {/* <Link to="/shippingpolicy"><p>Shipping Policy</p></Link>
                         <Link to="/termscondition"><p>Terms & Conditions</p></Link>
                         <Link to="/refundsreplace"><p>Refund&Replacement</p></Link>
-                        <Link to="/privacypolicy"><p>Privacy Policy</p></Link>
+                        <Link to="/privacypolicy"><p>Privacy Policy</p></Link> */}
                     </div>
                     <div className="sb__footer-links_div_img">
                         <img src={Whatsapp} width={"100px"} height={"100px"} />
@@ -51,8 +54,8 @@ const Footer = () => {
                     <div className="sb__footer-links_div">
                         <div className="socialmedia">
                             <div><a href="https://www.facebook.com/profile.php?id=61560236537282&mibextid=ZbWKwL"><FaFacebook /></a></div>
-                            <div><a href="https://www.instagram.com/hifi_itpark_fmcg/"><FaSquareInstagram /></a></div>
-                            <div><a href="https://fmcg.hifiitpark.com/"><CgWebsite /></a></div>
+                            <div><a href="https://www.instagram.com/hifi_itpark_academy/"><FaSquareInstagram /></a></div>
+                            <div><a href=" https://www.youtube.com/@hifiacademy-tuty"><CgWebsite /></a></div>
                             <div><a href="https://wa.me/918098309295"><IoLogoWhatsapp /></a></div>
                             <div><a href="mailto:fmcg@hifiitpark.com"><IoMail /></a></div>
                         </div>

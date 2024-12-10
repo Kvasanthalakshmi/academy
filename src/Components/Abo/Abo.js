@@ -44,7 +44,7 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
-      <section className="about-us-team">
+      {/* <section className="about-us-team">
         <h2>Meet Our Team</h2>
         <div className="team-grid">
           <div className="team-member">
@@ -66,12 +66,12 @@ const AboutUs = () => {
             <p>Director of Academics</p>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="about-us-contact">
         <h2>Contact Us</h2>
         <p>Email: contact@academy.com</p>
-        <p>Phone: +1 234 567 890</p>
-        <p>Address: 123 Academy Street, Education City, Country</p>
+        <p>Phone: 8754309295</p>
+        <p>Address: 34/15, Balavinayagar Kovil Street, Tuticorin - 628002</p>
       </section>
     </div>
   );
